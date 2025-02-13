@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url('./assets/love1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#content-box {
+    background-image: url('./assets/love.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.your-name {
+    margin-top: 20px;
+}
+.your-name label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.your-name input {
+    border-radius: 14px;
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 30px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.lover-name {
+    margin-top: 20px;
+}
+.lover-name label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.lover-name input {
+    border-radius: 14px;
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 30px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+#button {
+    width: 150px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+#result-box {
+    margin-top: 10px;
+}
+#result-name {
+    color: green;
+    font-size: 24px;
+    font-weight: 400;
+}
+#result-lover {
+    color: greenyellow;
+    font-size: 24px;
+    font-weight: 400;
+}
+#result-percentage {
+    color: red;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 400px) {
+    #content-box {
+        /* max-width: 300px; */
+        width: 300px;
+        height: 90vh;
+        padding: 15px;
+        margin: 0 auto;
+        margin-top: 10px;
+    } 
+    
+    .your-name input {
+        width: 90%;
+    }
+    .lover-name input {
+        width: 90%;
+    }
+}
